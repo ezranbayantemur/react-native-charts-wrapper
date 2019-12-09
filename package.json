@@ -26,6 +26,8 @@
     "RNCharts.podspec"
   ],
   "dependencies": {
+    "d3fc-sample": "^3.0.5",
+    "lodash.debounce": "^4.0.8",
     "prop-types": "^15.5.10",
     "react": "16.8.3"
   }

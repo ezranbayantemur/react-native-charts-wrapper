@@ -2,9 +2,32 @@
 # yarn lockfile v1
 
 
+d3-array@^1.0.0:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-1.2.4.tgz#635ce4d5eea759f6f605863dbcfc30edc737f71f"
+  integrity sha512-KHW6M86R+FUPYGb3R5XiYjXPq7VzwxZ22buHhAEVG5ztoEcZZMLov530mmccaqA1GghZArjQV46fuc8kUqhhHw==
+
+d3fc-rebind@^4.0.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/d3fc-rebind/-/d3fc-rebind-4.1.1.tgz#70c8d6b63fee63dbb3cb577c68732ded535f9b32"
+  integrity sha1-cMjWtj/uY9uzy1d8aHMt7VNfmzI=
+
+d3fc-sample@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/d3fc-sample/-/d3fc-sample-3.0.5.tgz#5b0a758f1a042e1a624b6a37e7f0ddd11ae7f86a"
+  integrity sha1-Wwp1jxoELhpiS2o35/Dd0Rrn+Go=
+  dependencies:
+    d3-array "^1.0.0"
+    d3fc-rebind "^4.0.1"
+
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "http://registry.npm.taobao.org/js-tokens/download/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
 loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
